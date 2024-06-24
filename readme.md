@@ -35,6 +35,8 @@ Now selinux is permissive and you can sideload app via [appscmd](https://github.
 
 If you want to get root please continue.
 
+---
+
 ### Install su-daemon/su
 
 Skip if you already download the prebuilt files
