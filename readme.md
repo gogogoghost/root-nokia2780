@@ -5,7 +5,8 @@ This repo provide a way to root nokia 2780
 ### Requirements
 
 - Follow [weeknd-toolbox](https://git.abscue.de/affe_null/weeknd-toolbox/) to make system editable. And enable adb
-- ndk-build
+- ndk-bundle
+- download [patched kernel and init](https://github.com/gogogoghost/root-nokia2780/releases/tag/0.0.1)
 
 ### Get started
 
