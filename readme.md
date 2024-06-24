@@ -13,7 +13,7 @@ Reboot to recovery and mount the whole emmc to your PC
 
 ### Replace kernel
 
-Patched boot partition has been replaced the kernel cmdline from **androidboot.selinux=enforce** to **androidboot.selinux=permissive**
+Patched boot partition has been replaced the kernel cmdline from **androidboot.selinux=enforcing** to **androidboot.selinux=permissive**
 
 ```bash
 sudo dd if=patched/boot of=/dev/sda13
