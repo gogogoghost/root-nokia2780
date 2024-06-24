@@ -38,8 +38,8 @@ ndk-build
 Then copy the su and su-daemon to **$(systemRoot)/system/xbin**
 
 ```bash
-sudo cp libs/armeabi-v7a/su $(ROOT)/system/xbin/su
-sudo cp libs/armeabi-v7a/su-daemon $(ROOT)/system/xbin/su-daemon
+sudo cp libs/armeabi-v7a/su $(systemRoot)/system/xbin/su
+sudo cp libs/armeabi-v7a/su-daemon $(systemRoot)/system/xbin/su-daemon
 ```
 
 ### Edit init.rc
