@@ -31,6 +31,10 @@ Patched init has been edit to disable selinux
 sudo cp patched/init $(systemRoot)/system/bin/init
 ```
 
+Now selinux is permissive and you can sideload app via [appscmd](https://github.com/kaiostech/appscmd) and **/data/local/tmp/app-uds.sock**
+
+If you want to get root please continue.
+
 ### Install su-daemon/su
 
 Skip if you already download the prebuilt files
