@@ -5,8 +5,9 @@ This repo provide a way to root nokia 2780
 ### Requirements
 
 - Follow [weeknd-toolbox](https://git.abscue.de/affe_null/weeknd-toolbox/) to make system editable. And enable adb
-- ndk-bundle
+- download [su and su-daemon](https://github.com/gogogoghost/root-nokia2780/releases)
 - download [patched kernel and init](https://github.com/gogogoghost/root-nokia2780/releases/tag/0.0.1)
+- ndk-bundle (if you want to build manually)
 
 ### Get started
 
@@ -30,7 +31,9 @@ Patched init has been edit to disable selinux
 sudo cp patched/init $(systemRoot)/system/bin/init
 ```
 
-### build su-daemon/su
+### Install su-daemon/su
+
+Skip if you already download the prebuilt files
 
 ```bash
 ndk-build
