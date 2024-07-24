@@ -5,7 +5,7 @@ This repo provide a way to root nokia 2780
 ### Requirements
 
 - Follow [weeknd-toolbox](https://git.abscue.de/affe_null/weeknd-toolbox/) to make system editable. And enable adb
-- download [su and su-daemon](https://github.com/gogogoghost/root-nokia2780/releases)
+- download [su](https://github.com/gogogoghost/root-nokia2780/releases)
 - download [patched kernel and init](https://github.com/gogogoghost/root-nokia2780/releases/tag/0.0.1)
 - ndk-bundle (if you want to build manually)
 
@@ -50,7 +50,7 @@ cargo build --target armv7-linux-androideabi --release
 Then copy the su to **$(systemRoot)/system/xbin**
 
 ```bash
-sudo cp libs/armeabi-v7a/su $(systemRoot)/system/xbin/su
+sudo cp target/armv7-linux-androideabi/release/su $(systemRoot)/system/xbin/su
 sudo chmod +x $(systemRoot)/system/xbin/su
 ```
 
